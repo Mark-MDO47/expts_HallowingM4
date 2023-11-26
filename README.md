@@ -1,6 +1,15 @@
 # expts_HallowingM4
 Experiments with the Adafruit Hallowing M4 Express
 
+Author: https://github.com/Mark-MDO47
+
+**Table Of Contents**
+* [Top](#expts_hallowingm4 "Top")
+* [Software](#software "Software")
+  * [Update Bootloader](#update-bootloader "Update Bootloader")
+  * [Compile and run Hallowing M4_Eyes code](#compile-and-run-hallowing-m4_eyes-code "Compile and run Hallowing M4_Eyes code")
+
+
 | Document | Where |
 | --- | --- |
 | Adafruit HalloWing M4 Express | https://www.adafruit.com/product/4300 |
