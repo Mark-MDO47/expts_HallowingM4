@@ -9,6 +9,11 @@ Experiments with the Adafruit Hallowing M4 Express
 
 ## Software
 
+### Update Bootloader
+
+The eye demonstration ran immediately.
+
+The documentation said:<br>
 If the bootloader version you see is older than v3.9.0, you need to update.
 - double-click the reset button
 - When you see the ...BOOT drive (FEATHERBOOT, METROM4BOOT, ITSYM4BOOT, PORTALBOOT, etc.),
@@ -21,3 +26,11 @@ If the bootloader version you see is older than v3.9.0, you need to update.
 
 https://learn.adafruit.com/adafruit-hallowing-m4/update-the-uf2-bootloader<br>
 https://github.com/adafruit/uf2-samdx1/releases/tag/v3.15.0<br>
+
+After doing this the eye demonstration did not run.
+
+### Compile and run Hallowing M4_Eyes code
+
+As the documentation said, the source code for the M4_Eyes code is in the directory M4_Eyes in https://github.com/adafruit/Adafruit_Learning_System_Guides.
+
+
