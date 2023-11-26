@@ -40,6 +40,14 @@ After doing this the eye demonstration did not run.
 
 ### Compile and run Hallowing M4_Eyes code
 
-As the documentation said, the source code for the M4_Eyes code is in the directory M4_Eyes in https://github.com/adafruit/Adafruit_Learning_System_Guides.
+As the documentation said, the source code for the M4_Eyes code is in the directory M4_Eyes here:
+- https://github.com/adafruit/Adafruit_Learning_System_Guides.
+
+<img src="https://github.com/Mark-MDO47/expts_HallowingM4/blob/master/images/ArduinoIDE_BoardSettings.png" width="142" alt="Image of Board Settings used to compile M4_Eyes">
+
+<img src="https://github.com/Mark-MDO47/expts_HallowingM4/blob/master/images/ArduinoIDE_CompileAndRun.png" width="142" alt="Image of result of compile and run of M4_Eyes">
+
+After compile-and-run a couple of times the code ran.
+
 
 
