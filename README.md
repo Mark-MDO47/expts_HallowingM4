@@ -23,6 +23,7 @@ Author: https://github.com/Mark-MDO47
 [Top](#expts_hallowingm4 "Top")<br>
 The eye demonstration ran immediately.
 
+https://learn.adafruit.com/adafruit-hallowing-m4/update-the-uf2-bootloader<br>
 The documentation said:<br>
 If the bootloader version you see is older than v3.9.0, you need to update.
 - double-click the reset button
