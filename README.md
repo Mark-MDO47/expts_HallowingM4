@@ -45,6 +45,9 @@ use a JLink to re-install UF2 Bootloader
 
 On my Windows 10 system with a single-click of the reset button, the disk name is **CIRCUITPY**. The four built-in neopixels are off.<br>
 On my Windows 10 system with the double-click of the reset button, the disk name is **HALLOM4BOOT**. Also the four built-in neopixels are green.<br>
+
+Per instructions, I copied the update file for the bootloader onto the **HALLOM4BOOT** disk (double-click reset). The system automatically rebooted. To get back to **HALLOM4BOOT** I did a double-click reset and saw that the file I copied had done its job and was now deleted.
+
 **INFO_UF2.TXT** now contains the following:
 ```
 UF2 Bootloader v3.15.0 SFHWRO
@@ -58,6 +61,9 @@ After doing this the eye demonstration did not run.
 [Top](#expts_hallowingm4 "Top")<br>
 The download page for the Hallowing M4 bootloader says that after uploading the bootloader "you will need to reload CircuitPython".
 - https://circuitpython.org/board/hallowing_m4_express/
+
+From that same download page I loaded the latest **stable** release. At this time that is CircuitPython 9.1.3.
+Once again I copied this other download file for the update onto the **HALLOM4BOOT** disk (double-click reset). The system automatically rebooted. 
 
 After doing this the eye demonstration still did not run.
 
