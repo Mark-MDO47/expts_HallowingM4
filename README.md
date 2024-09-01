@@ -7,6 +7,7 @@ Author: https://github.com/Mark-MDO47
 * [Top](#expts_hallowingm4 "Top")
 * [Software](#software "Software")
   * [Update Bootloader](#update-bootloader "Update Bootloader")
+  * [Reload CircuitPython](#reload-circuitpython "Reload CircuitPython")
   * [Compile and run Hallowing M4_Eyes code](#compile-and-run-hallowing-m4_eyes-code "Compile and run Hallowing M4_Eyes code")
 
 
