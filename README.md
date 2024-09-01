@@ -38,6 +38,10 @@ If the bootloader version you see is older than v3.9.0, you need to update.
 
 https://learn.adafruit.com/adafruit-hallowing-m4/update-the-uf2-bootloader<br>
 https://github.com/adafruit/uf2-samdx1/releases/tag/v3.15.0<br>
+https://learn.adafruit.com/adafruit-hallowing-m4/uf2-bootloader-details<br>
+use a JLink to re-install UF2 Bootloader
+- https://forums.adafruit.com/viewtopic.php?f=57&t=142170&p=707151#p707151 - M4 board
+- https://learn.adafruit.com/how-to-program-samd-bootloaders Learn Guide: fix the bootloader on a variety of boards using Atmel Studio
 
 On my Windows 10 system with a single-click of the reset button, the disk name is **CIRCUITPY**. The four built-in neopixels are off.<br>
 On my Windows 10 system with the double-click of the reset button, the disk name is **HALLOM4BOOT**. Also the four built-in neopixels are green.<br>
@@ -52,9 +56,10 @@ After doing this the eye demonstration did not run.
 
 ### Compile and run Hallowing M4_Eyes code
 [Top](#expts_hallowingm4 "Top")<br>
+https://learn.adafruit.com/adafruit-hallowing-m4/building-eyes-from-source-code
 
 As the documentation said, the source code for the M4_Eyes code is in the directory M4_Eyes here:
-- https://github.com/adafruit/Adafruit_Learning_System_Guides.
+- https://github.com/adafruit/Adafruit_Learning_System_Guides
 
 <img src="https://github.com/Mark-MDO47/expts_HallowingM4/blob/master/images/ArduinoIDE_BoardSettings.png" width="600" alt="Image of Board Settings used to compile M4_Eyes">
 
