@@ -54,6 +54,13 @@ Board-ID: SAMD51J19A-HalloM4-v0
 
 After doing this the eye demonstration did not run.
 
+### Reload CircuitPython
+[Top](#expts_hallowingm4 "Top")<br>
+The download page for the Hallowing M4 bootloader says that after uploading the bootloader "you will need to reload CircuitPython".
+- https://circuitpython.org/board/hallowing_m4_express/
+
+After doing this the eye demonstration still did not run.
+
 ### Compile and run Hallowing M4_Eyes code
 [Top](#expts_hallowingm4 "Top")<br>
 https://learn.adafruit.com/adafruit-hallowing-m4/building-eyes-from-source-code
