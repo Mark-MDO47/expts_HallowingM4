@@ -75,6 +75,8 @@ https://learn.adafruit.com/adafruit-hallowing-m4/building-eyes-from-source-code
 As the documentation said, the source code for the M4_Eyes code is in the directory M4_Eyes here:
 - https://github.com/adafruit/Adafruit_Learning_System_Guides
 
+You will need to choose **Tools->Board->USB Stack->TinyUSB** to make the compile work, but if you forget it will give a compile error and say that you need  to do this.
+
 <img src="https://github.com/Mark-MDO47/expts_HallowingM4/blob/master/images/ArduinoIDE_BoardSettings.png" width="600" alt="Image of Board Settings used to compile M4_Eyes">
 
 <img src="https://github.com/Mark-MDO47/expts_HallowingM4/blob/master/images/ArduinoIDE_CompileAndRun.png" width="600" alt="Image of result of compile and run of M4_Eyes">
