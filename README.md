@@ -47,6 +47,9 @@ use a JLink to re-install UF2 Bootloader
 On my Windows 10 system with a single-click of the reset button, the disk name is **CIRCUITPY**. The four built-in neopixels are off.<br>
 On my Windows 10 system with the double-click of the reset button, the disk name is **HALLOM4BOOT**. Also the four built-in neopixels are green.<br>
 
+Location of update file for the bootloader is
+- https://circuitpython.org/board/hallowing_m4_express/
+
 Per instructions, I copied the update file for the bootloader onto the **HALLOM4BOOT** disk (double-click reset). The system automatically rebooted. To get back to **HALLOM4BOOT** I did a double-click reset and saw that the file I copied had done its job and was now deleted.
 
 **INFO_UF2.TXT** now contains the following:
@@ -63,7 +66,7 @@ After doing this the eye demonstration did not run.
 The download page for the Hallowing M4 bootloader says that after uploading the bootloader "you will need to reload CircuitPython".
 - https://circuitpython.org/board/hallowing_m4_express/
 
-From that same download page I loaded the latest **stable** release. At this time that is CircuitPython 9.1.3.
+From that same download page I loaded the latest **stable** release. In Aug 2024 that was CircuitPython 9.1.3. In Sept 2024 that is 9.1.4.
 Once again I copied this other download file for the update onto the **HALLOM4BOOT** disk (double-click reset). The system automatically rebooted. 
 
 After doing this the eye demonstration still did not run.
@@ -81,4 +84,4 @@ You will need to choose **Tools->Board->USB Stack->TinyUSB** to make the compile
 
 <img src="https://github.com/Mark-MDO47/expts_HallowingM4/blob/master/images/ArduinoIDE_CompileAndRun.png" width="600" alt="Image of result of compile and run of M4_Eyes">
 
-After compile-and-run a couple of times the code ran. I did not have to re-install the image files.
+After compile-and-run a couple of times the code ran; either with CircuitPython 9.1.3 or 9.1.4. I did not have to re-install the image files.
